@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ourServices } from "./utils/siteData";
+import Link from "next/link";
 
 export default function FeaturesBlocks() {
   return (
@@ -23,9 +24,10 @@ export default function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {ourServices.content.map((item) => {
               return (
-                <div
+                <Link
                   key={item.subtext}
-                  className="relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] bg-white rounded shadow-xl "
+                  href={item.link}
+                  className="relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out"
                 >
                   <div className="bg-blue-600 p-2 rounded-full">
                     <Image
@@ -41,7 +43,7 @@ export default function FeaturesBlocks() {
                     {item.text}
                   </h4>
                   <p className="text-gray-600 text-center">{item.subtext}</p>
-                </div>
+                </Link>
               );
             })}
           </div>

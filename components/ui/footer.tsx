@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/quantitative-algorithms"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Quantitative Algorithms
@@ -74,7 +74,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/gpt-integration"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   GPT Integration
@@ -82,7 +82,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/chatbots"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Chatbots
@@ -90,7 +90,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/custom-gpt-solutions"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Custom GPT Solutions
@@ -98,7 +98,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/intelligent-automation"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Intelligent
@@ -161,7 +161,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Home
@@ -169,7 +169,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="about"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   About us
@@ -177,7 +177,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/contact"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Contact
@@ -185,7 +185,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Terms and Conditions
@@ -193,7 +193,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Privacy Policy

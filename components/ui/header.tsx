@@ -71,7 +71,7 @@ export default function Header() {
 
               <li>
                 <Link
-                  href="/signup"
+                  href="/"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                 >
                   <span>Request A Consultation</span>

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Keensight Analytics - Sharpened Intuition",
+  description: "Innovative AI, Complete Software.",
 };
 
 import Hero from "@/components/hero";
