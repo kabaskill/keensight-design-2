@@ -57,37 +57,37 @@ export const header2 = {
 };
 
 export const ourServices = {
-  header: `Our Services`,
-  subheader: `Our services are tailored for the digital age. From AI analytics to custom software, we're your partners in progress,dedicated to driving efficiency and fostering growth for your business.`,
-  content: [
+  title: `Our Services`,
+  description: `Our services are tailored for the digital age. From AI analytics to custom software, we're your partners in progress,dedicated to driving efficiency and fostering growth for your business.`,
+  list: [
     {
-      text: `Quantitative Algorithms`,
-      subtext: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
-      image: "/custom-algo.svg",
+      subTitle: `Quantitative Algorithms`,
+      description: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,
+      image: "/images/custom-algo.svg",
       link: "/quantitative-algorithms",
     },
     {
-      text: `GPT Integration Services`,
-      subtext: `Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions`,
-      image: "/rigor.svg",
+      subTitle: `GPT Integration Services`,
+      description: `Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions`,
+      image: "/images/rigor.svg",
       link: "/gpt-integration",
     },
     {
-      text: `E-Commerce Chatbots`,
-      subtext: `Enhance Customer Experience, Boost Sales, and Streamline Support with Our AI-Powered Chatbot Solutions`,
-      image: "/seamless.svg",
+      subTitle: `E-Commerce Chatbots`,
+      description: `Enhance Customer Experience, Boost Sales, and Streamline Support with Our AI-Powered Chatbot Solutions`,
+      image: "/images/seamless.svg",
       link: "/chatbots",
     },
     {
-      text: `Custom GPT Models`,
-      subtext: `Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store`,
-      image: "/realtime.svg",
+      subTitle: `Custom GPT Models`,
+      description: `Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store`,
+      image: "/images/realtime.svg",
       link: "/custom-gpt-solutions",
     },
     {
-      text: `Intelligent Automation Systems`,
-      subtext: `Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier`,
-      image: "/ongoing.svg",
+      subTitle: `Intelligent Automation Systems`,
+      description: `Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier`,
+      image: "/images/ongoing.svg",
       link: "/intelligent-automation",
     },
   ],

@@ -14,31 +14,36 @@
         {
           "subTitle": "Custom Algorithm Development",
           "description": "Tailored quantitative strategies designed to meet your unique trading goals and risk profile.",
-          "image": "/images/custom-algo.svg"
+          "image": "/images/custom-algo.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Rigorous Backtesting and Optimization",
           "description": "Ensure the robustness and performance of your algorithms before live trading.",
-          "image": "/images/rigor.svg"
+          "image": "/images/rigor.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Seamless Platform Integration",
           "description": "Effortlessly deploy your algorithms on your preferred trading platforms.",
-          "image": "/images/seamless.svg"
+          "image": "/images/seamless.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Real-Time Monitoring and Alerts",
           "description": "Stay informed about your algorithm's performance with real-time monitoring and alerts.",
-          "image": "/images/realtime.svg"
+          "image": "/images/realtime.svg",
+          "link": "/"
         },
         {
           "subTitle": "Ongoing Support and Maintenance",
           "description": "Benefit from our expert support team, ensuring optimal performance and adaptability in evolving markets.",
-          "image": "/images/ongoing.svg"
+          "image": "/images/ongoing.svg",
+          "link": "#0"
         }
       ]
     },
-    "sub-content": {
+    "subcontent": {
       "title": "The Premier Quantitative Development Partner for Ambitious Traders and Firms",
       "description": "At KeenSight Analytics, we are dedicated to empowering traders and firms with state-of-the-art quantitative trading solutions. Our team of experienced quants and developers combines deep market knowledge with cutting-edge technology to create robust and profitable algorithms. We work closely with you to understand your unique needs and develop customized strategies that drive superior results in today's competitive markets."
     },
@@ -75,31 +80,36 @@
         {
           "subTitle": "Seamless Integration",
           "description": "Effortlessly merge GPT capabilities with your existing systems for streamlined operations.",
-          "image": "/images/custom-algo.svg"
+          "image": "/images/custom-algo.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Custom GPT Models",
           "description": "Tailor-made solutions designed to address your unique business challenges and goals.",
-          "image": "/images/rigor.svg"
+          "image": "/images/rigor.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Comprehensive Training",
           "description": "Empower your team with the knowledge and skills to maximize GPT's potential.",
-          "image": "/images/seamless.svg"
+          "image": "/images/seamless.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Proactive Support",
           "description": "Enjoy round-the-clock assistance from our expert team to ensure optimal performance.",
-          "image": "/images/realtime.svg"
+          "image": "/images/realtime.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Continuous Optimization",
           "description": "Benefit from ongoing model refinement to stay ahead of the competition.",
-          "image": "/images/ongoing.svg"
+          "image": "/images/ongoing.svg",
+          "link": "#0"
         }
       ]
     },
-    "sub-content": {
+    "subcontent": {
       "title": "The Trusted GPT Integration Partner for Forward-Thinking Businesses",
       "description": "At KeenSight Analytics, we are passionate about helping businesses harness the transformative power of GPT technology. With our unrivaled expertise and commitment to excellence, we deliver cutting-edge integration solutions that drive measurable results. Our team of seasoned professionals works closely with you to understand your unique needs and craft tailored strategies that propel your business to new heights."
     },
@@ -124,7 +134,7 @@
   {
     "slug": "chatbots",
     "title": "Transform Your E-commerce with Intelligent",
-    "name": "Chatbots",
+    "name": "E-Commerce Chatbots",
     "description": "Enhance Customer Experience, Boost Sales, and Streamline Support with Our AI-Powered Chatbot Solutions",
     "button": "Get Your Custom Chatbot",
     "link": "/",
@@ -136,31 +146,36 @@
         {
           "subTitle": "Personalized Shopping Assistance",
           "description": "Provide tailored product recommendations and guide customers through their buying journey.",
-          "image": "/images/custom-algo.svg"
+          "image": "/images/custom-algo.svg",
+          "link": "#0"
         },
         {
           "subTitle": "24/7 Instant Support",
           "description": "Offer round-the-clock assistance, answering common queries and resolving issues promptly.",
-          "image": "/images/rigor.svg"
+          "image": "/images/rigor.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Seamless Integration",
           "description": "Effortlessly integrate our chatbots with your existing e-commerce platform and tools.",
-          "image": "/images/seamless.svg"
+          "image": "/images/seamless.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Multilingual Capabilities",
           "description": "Engage customers in their preferred language for a truly global reach.",
-          "image": "/images/realtime.svg"
+          "image": "/images/realtime.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Continuous Learning and Improvement",
           "description": "Our chatbots learn from every interaction, enhancing their performance over time.",
-          "image": "/images/ongoing.svg"
+          "image": "/images/ongoing.svg",
+          "link": "#0"
         }
       ]
     },
-    "sub-content": {
+    "subcontent": {
       "title": "The Leading Provider of AI-Driven Chatbot Solutions for E-commerce",
       "description": "At KeenSight Analytics, we are passionate about revolutionizing the e-commerce landscape with our cutting-edge chatbot technology. Our team of experienced AI experts and developers creates custom chatbot solutions that elevate the customer experience, drive sales, and optimize support efficiency. We work closely with you to understand your unique business needs and deliver tailored chatbots that exceed your expectations."
     },
@@ -184,8 +199,8 @@
   },
   {
     "slug": "custom-gpt-solutions",
-    "title": "Unleash the Power of Custom",
-    "name": "GPT Models",
+    "title": "Unleash the Power of",
+    "name": "Custom GPT Models",
     "description": "Revolutionize Your Operations, Enhance Customer Engagement, and Drive Innovation with Our Tailored GPT Solutions on the OpenAI GPT Store",
     "button": "Create Your Custom GPT Now",
     "link": "/",
@@ -197,31 +212,36 @@
         {
           "subTitle": "Industry-Specific GPT Models",
           "description": "Custom-built GPT models tailored to your industry's unique language, terminology, and use cases.",
-          "image": "/images/custom-algo.svg"
+          "image": "/images/custom-algo.svg",
+          "link": "/"
         },
         {
           "subTitle": "Seamless OpenAI GPT Store Integration",
           "description": "Effortlessly deploy and manage your custom GPT models on the OpenAI GPT Store platform.",
-          "image": "/images/rigor.svg"
+          "image": "/images/rigor.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Enhanced Customer Interaction",
           "description": "Engage customers with personalized, context-aware responses powered by your custom GPT models.",
-          "image": "/images/seamless.svg"
+          "image": "/images/seamless.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Improved Operational Efficiency",
           "description": "Automate tasks, streamline processes, and boost productivity with intelligent GPT-driven solutions.",
-          "image": "/images/realtime.svg"
+          "image": "/images/realtime.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Continuous Fine-Tuning and Optimization",
           "description": "Regularly update and refine your GPT models based on user feedback and evolving business needs.",
-          "image": "/images/ongoing.svg"
+          "image": "/images/ongoing.svg",
+          "link": "#0"
         }
       ]
     },
-    "sub-content": {
+    "subcontent": {
       "title": "The Premier Provider of Custom GPT Solutions on the OpenAI GPT Store",
       "description": "At KeenSight Analytics, we are at the forefront of harnessing the power of GPT technology to transform businesses. Our team of experienced AI experts and developers specializes in creating custom GPT models that cater to your unique business requirements. By leveraging the OpenAI GPT Store platform, we ensure seamless deployment, management, and scalability of your GPT solutions. Partner with us to unlock the full potential of GPT and drive your business to new heights."
     },
@@ -245,8 +265,8 @@
   },
   {
     "slug": "intelligent-automation",
-    "title": "Streamline Your Business with ",
-    "name": "Intelligent Automation Systems",
+    "title": "Streamline Your Business with Intelligent",
+    "name": " Automation Systems",
     "description": "Boost Efficiency, Save Time, and Simplify Workflows with Our Powerful Automation Solutions Powered by Make.com and Zapier",
     "button": "Automate Your Bussiness Now",
     "link": "/",
@@ -258,31 +278,36 @@
         {
           "subTitle": "Customized Automation Workflows",
           "description": "Tailor-made automation systems designed to fit your unique business processes.",
-          "image": "/images/custom-algo.svg"
+          "image": "/images/custom-algo.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Seamless App Integration",
           "description": "Connect and automate tasks across 1000+ apps and services with Make.com and Zapier.",
-          "image": "/images/rigor.svg"
+          "image": "/images/rigor.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Centralized Automation Management",
           "description": "Efficiently manage and monitor your automations with Zapier Central.",
-          "image": "/images/seamless.svg"
+          "image": "/images/seamless.svg",
+          "link": "#0"
         },
         {
           "subTitle": "No-Code Simplicity",
           "description": "Create and implement automation workflows without any coding knowledge.",
-          "image": "/images/realtime.svg"
+          "image": "/images/realtime.svg",
+          "link": "#0"
         },
         {
           "subTitle": "Scalable Automation Solutions",
           "description": "Easily scale your automations as your business grows and evolves.",
-          "image": "/images/ongoing.svg"
+          "image": "/images/ongoing.svg",
+          "link": "#0"
         }
       ]
     },
-    "sub-content": {
+    "subcontent": {
       "title": "Your Trusted Partner for Business Automation Excellence",
       "description": "At KeenSight Analytics, we are committed to helping businesses unlock their full potential through intelligent automation. Our team of experienced automation experts leverages the power of Make.com and Zapier to create customized automation systems that streamline processes, eliminate manual tasks, and drive efficiency. With our cutting-edge solutions and dedicated support, we empower businesses to focus on what matters most: growth and success."
     },

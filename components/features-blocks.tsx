@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { ourServices } from "./utils/siteData";
 import Link from "next/link";
+import { ourServices } from "./utils/siteData";
 
-export default function FeaturesBlocks() {
+export default function FeaturesBlocks({ services = ourServices }) {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -16,33 +16,33 @@ export default function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">{ourServices.header}</h2>
-            <p className="text-xl text-gray-600">{ourServices.subheader}</p>
+            <h2 className="h2 mb-4">{ourServices.title}</h2>
+            <p className="text-xl text-gray-600">{ourServices.description}</p>
           </div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
-            {ourServices.content.map((item) => {
+            {services.list.map((item) => {
               return (
                 <Link
-                  key={item.subtext}
+                  key={item.image}
                   href={item.link}
                   className="relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out"
                 >
                   <div className="bg-blue-600 p-2 rounded-full">
                     <Image
-                      src={`./images/${item.image}`}
-                      width={48}
-                      height={48}
-                      alt={item.text}
+                      src={item.image}
+                      width={64}
+                      height={64}
+                      alt={item.subTitle}
                       className="filter invert"
                     />
                   </div>
 
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                    {item.text}
+                    {item.subTitle}
                   </h4>
-                  <p className="text-gray-600 text-center">{item.subtext}</p>
+                  <p className="text-gray-600 text-center">{item.description}</p>
                 </Link>
               );
             })}
