@@ -7,6 +7,7 @@ import VideoThumb from "@/public/images/hero-image.png";
 import data from "@/data/products.json";
 import FeaturesBlocks from "@/components/features-blocks";
 import CommonEngagements from "@/components/common";
+import Newsletter from "@/components/newsletter";
 
 export default function ProductPage({ params }: { params: { product: string } }) {
   const pathname = usePathname();
@@ -89,6 +90,7 @@ export default function ProductPage({ params }: { params: { product: string } })
       </section>
       <FeaturesBlocks services={product.services}/>
       <CommonEngagements product={product}/>
+      <Newsletter />
     </>
   );
 }
