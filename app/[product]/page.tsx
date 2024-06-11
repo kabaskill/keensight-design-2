@@ -59,13 +59,13 @@ export default function ProductPage({ params }: { params: { product: string } })
                   {product.description}
                 </p>
                 <div
-                  className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+                  className="max-w-xs mx-auto sm:max-w-none sm:flex  justify-center lg:justify-start"
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
                   <div>
                     <a
-                      className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                      className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 "
                       href={product.link}
                     >
                       {product.button}
@@ -88,8 +88,8 @@ export default function ProductPage({ params }: { params: { product: string } })
           </div>
         </div>
       </section>
-      <FeaturesBlocks services={product.services}/>
-      <CommonEngagements product={product}/>
+      <FeaturesBlocks services={product.services} />
+      <CommonEngagements product={product} />
       <Newsletter />
     </>
   );

@@ -1,5 +1,13 @@
 export const heroHeader = [
   {
+    title: `Innovative AI, `,
+    span: `Complete Software.`,
+    content: `From Concept to Code, We are Here to Help.`,
+    link: "/contact",
+    button: `Contact Us`,
+    image: "/",
+  },
+  {
     title: `Revolutionize Your Trading with Cutting-Edge`,
     span: `Quantitative Algorithms`,
     content: `Maximize Returns, Minimize Risk, and Gain a Competitive Edge with Our Custom Quantitative Trading Solutions`,

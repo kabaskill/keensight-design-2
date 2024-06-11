@@ -21,7 +21,7 @@ export default function SubContent({ side, index }: { side: string; index: numbe
             {/* Content */}
 
             <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-12 md:mt-6 text-center"
+              className="max-w-xl md:max-w-3xl md:w-full mx-auto md:col-span-12 md:mt-6 items-center text-center px-8"
               data-aos={`fade-${side}`}
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-4">

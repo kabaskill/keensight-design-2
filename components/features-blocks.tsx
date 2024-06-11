@@ -21,13 +21,19 @@ export default function FeaturesBlocks({ services = ourServices }) {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
-            {services.list.map((item) => {
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-6 items-start md:max-w-2xl lg:max-w-3xl ">
+            {services.list.map((item, index) => {
+              let colSpanClasses = "lg:col-span-3";
+
+              if (index === services.list.length - 1) {
+                colSpanClasses = "md:col-span-2 lg:col-span-6 h-[25dvh]";
+              }
+
               return (
                 <Link
                   key={item.image}
                   href={item.link}
-                  className="relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className={`relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] sm:h-[25dvh] bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out ${colSpanClasses}`}
                 >
                   <div className="bg-blue-600 p-2 rounded-full">
                     <Image
