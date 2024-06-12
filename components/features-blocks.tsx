@@ -26,14 +26,14 @@ export default function FeaturesBlocks({ services = ourServices }) {
               let colSpanClasses = "lg:col-span-3";
 
               if (index === services.list.length - 1) {
-                colSpanClasses = "md:col-span-2 lg:col-span-6 h-[25dvh]";
+                colSpanClasses = "md:col-span-2 lg:col-span-6 ";
               }
 
               return (
                 <Link
                   key={item.image}
                   href={item.link}
-                  className={`relative flex flex-col items-center text-center justify-around p-6 h-[30dvh] sm:h-[25dvh] bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out ${colSpanClasses}`}
+                  className={`relative min-h-full flex flex-col items-center text-center  gap-4 p-6 bg-white rounded shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out ${colSpanClasses}`}
                 >
                   <div className="bg-blue-600 p-2 rounded-full">
                     <Image
