@@ -81,6 +81,7 @@ export default function MobileMenu() {
                   key={subLink.title}
                   href={subLink.link}
                   className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                  onClick={() => setMobileNavOpen(!mobileNavOpen)}
                 >
                   {subLink.title}
                 </Link>
@@ -91,6 +92,7 @@ export default function MobileMenu() {
               <Link
                 href={navLinks[0].link}
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 {navLinks[0].title}
               </Link>
@@ -99,6 +101,7 @@ export default function MobileMenu() {
               <Link
                 href={navLinks[1].link}
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 {navLinks[1].title}
               </Link>
@@ -107,6 +110,7 @@ export default function MobileMenu() {
               <Link
                 href="/signup"
                 className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2"
+                onClick={() => setMobileNavOpen(!mobileNavOpen)}
               >
                 <span>Request A Consultation</span>
                 <svg
