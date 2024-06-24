@@ -12,8 +12,7 @@
       "quantitative/3.png",
       "quantitative/4.png",
       "quantitative/5.png",
-      "quantitative/6.png",
-      "quantitative/7.png"
+      "quantitative/6.png"
     ],
     "services": {
       "title": "Our Services",
@@ -80,16 +79,7 @@
     "description": "Transform Your Operations, Boost Efficiency, and Drive Growth with Our Cutting-Edge GPT Solutions",
     "button": "Request A Free Consultation",
     "link": "/",
-    "imageArr": [
-      "gpt/1.png",
-      "gpt/2.png",
-      "gpt/3.png",
-      "gpt/4.png",
-      "gpt/5.png",
-      "gpt/6.png",
-      "gpt/7.png",
-      "gpt/8.png"
-    ],
+    "imageArr": ["gpt/1.png", "gpt/2.png", "gpt/3.png", "gpt/4.png", "gpt/5.png", "gpt/6.png"],
     "services": {
       "title": "Our Services",
       "description": "Our services are tailored for the digital age. From AI analytics to custom software, we're your partners in progress, dedicated to driving efficiency and fostering growth for your business.",
@@ -161,11 +151,7 @@
       "ecommerce/3.png",
       "ecommerce/4.png",
       "ecommerce/5.png",
-      "ecommerce/6.png",
-      "ecommerce/7.png",
-      "ecommerce/8.png",
-      "ecommerce/9.png",
-      "ecommerce/10.png"
+      "ecommerce/6.png"
     ],
     "services": {
       "title": "Our Services",
@@ -238,10 +224,7 @@
       "custom/3.png",
       "custom/4.png",
       "custom/5.png",
-      "custom/6.png",
-      "custom/7.png",
-      "custom/8.png",
-      "custom/9.png"
+      "custom/6.png"
     ],
     "services": {
       "title": "Our Services",
@@ -314,11 +297,7 @@
       "automation/3.png",
       "automation/4.png",
       "automation/5.png",
-      "automation/6.png",
-      "automation/7.png",
-      "automation/8.png",
-      "automation/9.png",
-      "automation/10.png"
+      "automation/6.png"
     ],
     "services": {
       "title": "Our Services",

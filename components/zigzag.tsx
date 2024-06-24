@@ -28,7 +28,7 @@ export default function Zigzag() {
                   src={"/images/about-andrew.png"}
                   width={540}
                   height={405}
-                  alt="Features 02"
+                  alt="Andrew Gabriel, Founder of KeenSight Analytics"
                 />
               </div>
               {/* Content */}
