@@ -10,6 +10,7 @@ export default function Logo() {
         height={250}
         alt="Keensight Logo"
         className="filter invert"
+        priority
       />
     </Link>
   );

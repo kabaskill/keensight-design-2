@@ -8,6 +8,7 @@ import data from "@/data/products.json";
 import FeaturesBlocks from "@/components/features-blocks";
 import CommonEngagements from "@/components/common";
 import Newsletter from "@/components/newsletter";
+import ImageGallery from "@/components/image-gallery";
 
 export default function ProductPage({ params }: { params: { product: string } }) {
   const pathname = usePathname();
@@ -88,7 +89,11 @@ export default function ProductPage({ params }: { params: { product: string } })
           </div>
         </div>
       </section>
+
       <FeaturesBlocks services={product.services} />
+
+      <ImageGallery arr={product.imageArr} />
+
       <CommonEngagements product={product} />
       <Newsletter />
     </>
