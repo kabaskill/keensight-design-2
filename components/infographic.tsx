@@ -7,7 +7,6 @@ export default function Infographic({ arr }: { arr: Array<string> }) {
     mediumZoom("img[data-zoom]", {
       margin: 24,
       background: "rgba(0, 0, 0, 0.5)",
-
       scrollOffset: 0,
     });
   }, []);
